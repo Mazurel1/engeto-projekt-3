@@ -11,7 +11,7 @@ Step No. 3: Write name of your input file with ".csv" extension.\
 It could looks like this:\
 PS E:\Downloads\Scraper> python main.py "https://volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=6&xnumnuts=4205" new_file.csv\
 Final result could looks like this:\
-![csvdata](https://github.com/Mazurel1/engeto-projekt-3/assets/137199401/0bf64518-b56c-462c-9690-85020c5bbef3)
+![csvdata](https://github.com/Mazurel1/engeto-projekt-3/assets/137199401/2fbc9b51-a7ee-421c-a9b8-a0dbc680ddcb)
 ### Code structure
 PART 0: Getting and processing input from user.\
 PART 1: Getting and processing data from entered URL.\
