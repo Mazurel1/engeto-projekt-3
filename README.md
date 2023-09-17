@@ -5,7 +5,7 @@ Install content from requirements.txt.\
 pip install -r requirements.txt
 ### Using of application
 After installing the requirements:\
-Step No. 1: Follow this sintax: python [path to script] [URL] [name of output file]\
+Step No. 1: Follow this syntax: python [path to script] [URL] [name of output file]\
 Step No. 2: Choose an item from the territorial unit, click and use the URL as the first argument.\
 Step No. 3: Write name of your input file with ".csv" extension.\
 It could looks like this:\
