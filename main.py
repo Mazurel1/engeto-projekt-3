@@ -167,9 +167,9 @@ def write_data(main_page_data: list, fileName: str) -> str:
     """
     Write data to csv file.
     """
-    with open(fileName, mode="w", encoding="utf-8", newline="") as csv_soubor:
+    with open(fileName, mode="w", encoding="utf-8", newline="") as csv_file:
         columns = main_page_data[0].keys()
-        writer = csv.DictWriter(csv_soubor, fieldnames=columns)
+        writer = csv.DictWriter(csv_file, fieldnames=columns)
         writer.writeheader()
         writer.writerows(main_page_data)
 write_data(main_page_data,fileName)
